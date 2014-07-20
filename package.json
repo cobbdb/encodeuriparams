@@ -1,0 +1,31 @@
+{
+  "name": "encodeURIParams",
+  "version": "1.0.0",
+  "description": "Turn an object into an encoded URI parameter string.",
+  "main": "parser.js",
+  "scripts": {
+    "test": "jasmine-node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cobbdb/encodeURIParams.git"
+  },
+  "keywords": [
+    "uri",
+    "parameters",
+    "params",
+    "encode",
+    "url",
+    "convert",
+    "converter"
+  ],
+  "author": "Dan Cobb <cobbdb@gmail.com> (http://www.github.com/cobbdb)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cobbdb/encodeURIParams/issues"
+  },
+  "homepage": "https://github.com/cobbdb/encodeURIParams",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
