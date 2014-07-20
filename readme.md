@@ -33,5 +33,5 @@ Turn an object into an encoded URI parameter string.
 `params` will now equal `?boolVal=true&`.
 
 ---------
-* See: http://github.com/cobbdb/encodeURIParams
+* See: http://github.com/cobbdb/encodeuriparams
 * License: MIT
