@@ -7,7 +7,7 @@ Turn an object into an encoded URI parameter string.
 -------------
 ## Convert a single object
 
-    var encode = require('encodeURIParams');
+    var encode = require('encodeuriparams');
     var params = encode({
         some: 'value'
     });
