@@ -1,4 +1,4 @@
-# rest-interface [![NPM version](https://badge.fury.io/js/encodeURIParams.svg)](http://badge.fury.io/js/encodeURIParams)
+# encodeuriparams [![NPM version](https://badge.fury.io/js/encodeURIParams.svg)](http://badge.fury.io/js/encodeURIParams)
 
 Turn an object into an encoded URI parameter string.
 
