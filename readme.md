@@ -2,7 +2,7 @@
 
 Turn an object into an encoded URI parameter string.
 
-    $ npm install encodeURIParams
+    $ npm install encodeuriparams
 
 -------------
 ## Convert a single object
