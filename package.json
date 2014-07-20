@@ -1,5 +1,5 @@
 {
-  "name": "encodeURIParams",
+  "name": "encodeuriparams",
   "version": "1.0.0",
   "description": "Turn an object into an encoded URI parameter string.",
   "main": "parser.js",
