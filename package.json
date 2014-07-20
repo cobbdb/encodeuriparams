@@ -1,6 +1,6 @@
 {
   "name": "encodeuriparams",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Turn an object into an encoded URI parameter string.",
   "main": "parser.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cobbdb/encodeURIParams.git"
+    "url": "https://github.com/cobbdb/encodeuriparams.git"
   },
   "keywords": [
     "uri",
@@ -22,10 +22,14 @@
   "author": "Dan Cobb <cobbdb@gmail.com> (http://www.github.com/cobbdb)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cobbdb/encodeURIParams/issues"
+    "url": "https://github.com/cobbdb/encodeuriparams/issues"
   },
-  "homepage": "https://github.com/cobbdb/encodeURIParams",
+  "homepage": "https://github.com/cobbdb/encodeuriparams",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {}
 }
