@@ -29,6 +29,13 @@ describe('encodeURIParams', function () {
             }]);
             expect(params).toEqual('test=value&bool=false&123=456&');
         });
+        it('ignores empty objects', function () {
+            var params = parse([{
+                'bool': false
+            }, {
+            }]);
+            expect(params).toEqual('bool=false&');
+        });
     });
     describe('with question mark', function () {
         it('returns empty with no args', function () {
