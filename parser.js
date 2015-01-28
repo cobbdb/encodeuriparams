@@ -1,12 +1,17 @@
 var combine = function (set, prev) {
     var i, params = prev;
     for (i in set) {
-        params += i + '=' + set[i] + '&';
+        if (typeof set[i] !== 'function') {
+            params += i + '=' + set[i] + '&';
+        }
     }
     return params;
 };
 module.exports = function (data, addQM) {
-    var i, params = addQM ? '?' : '', result = '';
+    var i,
+        params = addQM ? '?' : '',
+        result = '';
+
     if (Array.isArray(data)) {
         result = data.reduce(function (prev, set) {
             return combine(set, prev);

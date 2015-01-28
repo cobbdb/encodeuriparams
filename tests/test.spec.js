@@ -36,6 +36,15 @@ describe('encodeURIParams', function () {
             }]);
             expect(params).toEqual('bool=false&');
         });
+        it('ignores functions', function () {
+            var params = parse([{
+                testkey: 'testval',
+                testfun: function () {}
+            }, {
+                lastkey: 'lastval'
+            }]);
+            expect(params).toEqual('testkey=testval&lastkey=lastval&');
+        });
     });
     describe('with question mark', function () {
         it('returns empty with no args', function () {

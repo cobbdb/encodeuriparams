@@ -1,6 +1,6 @@
 {
   "name": "encodeuriparams",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Turn an object into an encoded URI parameter string.",
   "main": "parser.js",
   "scripts": {
